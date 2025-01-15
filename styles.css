@@ -16,7 +16,7 @@ body {
 /* Header */
 header {
     height: 175px; /* adjust height as needed */
-    background-image: url('file:///C:/Users/Lenovo/Documents/New%20Folder%20Website/images/OIP.jpg');
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-07.jpg);
     background-size: cover;
     /* Ensures the image covers the header area */
     background-position: center;
