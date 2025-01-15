@@ -15,8 +15,8 @@ body {
 }
 
 /* Header */
-.header {
-    height: 40vh; /* adjust height as needed */
+header {
+    height: 60vh; /* adjust height as needed */
     background-image: url('images\trees-7770819_1280.jpg');
     background-size: cover; /* Ensures the image covers the header area */
     background-position: center;
@@ -31,7 +31,15 @@ body {
     position: relative; /* Ensures proper layering */
 }
  
-
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
 
 .header h1 {
     margin-bottom: 8px;
