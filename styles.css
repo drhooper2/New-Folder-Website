@@ -17,7 +17,7 @@ body {
 /* Header */
 header {
     height: 60vh; /* adjust height as needed */
-    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-07.jpg);
+    background-image: url(https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover; /* Ensures the image covers the header area */
     background-position: center;
     background-repeat: no-repeat;
