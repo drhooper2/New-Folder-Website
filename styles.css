@@ -15,7 +15,7 @@ body {
 }
 /* Header */
 header {
-    height: 50vh; /* adjust height as needed */
+    height: 300px; /* adjust height as needed */
     background-image: url(images\web_banner_1920x350.jpg);
     background-size: cover; /* Ensures the image covers the header area */
     background-position: center;
