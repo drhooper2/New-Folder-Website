@@ -42,7 +42,7 @@ body {
 .header p {
     font-size: 36px;
     font-weight: bold;
-    color: green; /* Truth and Reconciliation in Education */
+    color: black; /* Truth and Reconciliation in Education */
 }
  
 /* Main Content */
@@ -108,7 +108,7 @@ section p {
 /* Footer */
 .footer {
     text-align: center;
-    background-color: red;
+    background-color: rgb(247, 222, 222);
     color: black;
     padding: 1rem;
     margin-top: 2rem;
