@@ -28,6 +28,11 @@ body {
     color: black; /* Truth and Reconciliation */
     padding: 0rem;
     flex-direction: column; /*makes the two headings stack on top of each other, not side by side */
+    position: relative; /* Ensures proper layering */
+}
+ 
+h1, p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .header h1 {
