@@ -15,7 +15,7 @@ body {
 }
 
 /* Header */
-header {
+.header {
     height: 40vh; /* adjust height as needed */
     background-image: url('images\trees-7770819_1280.jpg');
     background-size: cover; /* Ensures the image covers the header area */
