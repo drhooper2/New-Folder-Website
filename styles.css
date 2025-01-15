@@ -17,7 +17,7 @@ body {
 /* Header */
 .header {
     height: 40vh; /* adjust height as needed */
-    background-image: url('file:///C:/Users/Lenovo/Documents/GitHub/capstone/Images%20-%20Copy/OIP.jpg');
+    background-image: url('images\OIP.jpg');
     background-size: cover; /* Ensures the image covers the header area */
     background-position: center;
     background-repeat: no-repeat;
