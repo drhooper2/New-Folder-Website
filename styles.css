@@ -9,7 +9,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    color: black;
+    color: red;
     background-color: rgb(239, 235, 226);  
     padding: 0 1 rem;
 }
@@ -134,5 +134,6 @@ section p {
 /*background-color: rgb(239, 235, 226); */
 
 ul {
-    margin-left: 40px;
+    padding-left: 40px;
 }
+
