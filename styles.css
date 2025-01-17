@@ -26,7 +26,7 @@ header {
     align-items: center; /* Vertically centers content */
     justify-content: center; /* Horizontally centers content */
     text-align: center;
-    color: red; /* Truth and Reconciliation */
+    color: black; /* Truth and Reconciliation */
     padding: 0rem;
     flex-direction: column; /*makes the two headings stack on top of each other, not side by side */
     position: relative; /* Ensures proper layering */
@@ -54,7 +54,7 @@ header::before {
 .header p {
     font-size: 36px;
     font-weight: bold;
-    color: black; /* Truth and Reconciliation in Education */
+    color: red; /* Truth and Reconciliation in Education */
 }
  
 /* Main Content */
