@@ -51,6 +51,11 @@ header::before {
     font-size: 30px;
     font-weight: bold;
 }
+
+h3 {
+    margin-left: 0; /* Reset Margin */
+    padding: 0; /* Reset Padding */
+}
 .header p {
     font-size: 36px;
     font-weight: bold;
@@ -85,10 +90,12 @@ section p {
     max-width: 1200; 
     margin: 2rem auto; /* centers the section on the page */
     gap: 2rem; /* Adds space between text and image */
+
 }
 
 .text-content {
     flex: 3; /* Allows the text to take up 60% of the space */
+    margin-left: -30px;
 }
 
 .text-content h2 {
@@ -114,7 +121,7 @@ section p {
     width: 300px; /* this is how much space the image is set to take */
     height: auto; /* Keeps the image proportional */
     border-radius: 8px; /* Optional: Adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    box-shadow: 0 12px 18px black; /* Optional: Adds a subtle shadow */
     margin-top: 30%; /* Adjust this value to move the image down */
 }
 /* Footer */
