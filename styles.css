@@ -146,3 +146,42 @@ ul {
     padding-left: 40px;
 }
 
+/* This is where the css for the navigation bar is. It starts with the body css, but then when I went to enter it, ChatGPT says it stars below.  Either way, I will leave this here because it was the start of the css on the suggestion. */
+
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #333; /* Dark background */
+    color: #fff; /* white text */
+    padding: 10px 20px;
+}
+
+.navbar-list {
+    display: flex; /* Horizonntal layout */
+    justify-content: space-around; /* space items evenly */
+    align-items: center;
+}
+
+.navbar-list li a {
+    color: #fff; /* Link color */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3x ease;
+}
+.navbar-list li a:hover {
+    background-color: #555; /* slightly lighter on hover */
+}
+
+/* Add spacing for contnt below navbar */
+.content {
+    margin-top: 20px;
+    padding: 20px;
+    fonot-family: Arial, sans-serif;
+}
+/* This is where the css for the navigation bar is */
