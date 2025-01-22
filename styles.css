@@ -65,7 +65,7 @@ h3 {
 /* Main Content */
 .content {
     max-width: 1200px;
-    margin: 2rem;
+    margin: 30px;
 }
 
 section {
@@ -149,7 +149,7 @@ ul {
 ul, ol {
     list-style-type: disc;
     margin-left: 20px;
-    paddng: 0;
+    padding: 0;
 }
 
 /* This is where the css for the navigation bar is. It starts with the body css, but then when I went to enter it, ChatGPT says it stars below.  Either way, I will leave this here because it was the start of the css on the suggestion. */
@@ -187,7 +187,8 @@ body, ul, li, a {
 /* Add spacing for contnt below navbar */
 .content {
     margin-top: 20px;
-    padding: 20px;
+    margin-left: 20px;
+    padding: .5px;
     font-family: Arial, sans-serif;
 }
 /* This is where the css for the navigation bar is */
